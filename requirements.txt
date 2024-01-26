@@ -1,0 +1,18 @@
+Olá! Seja bem vindo ao meu mini projeto em python!
+Este projeto trata-se de uma automação prática em selenium juntamente com o Excel. O intuito desse mini projeto é efetuar
+um cadastro em um formulário de Tech Recruiter no Google Chrome, o intuito é fazer o procedimento de uma maneira mais 
+simples e menos repetitiva.
+
+Como funciona?
+Trata-se de um "loop" que percorre todas as linhas de uma planilha do Excel e preenche automaticamente os procedimentos
+no site "SurveyMonkey". Ao finalizar é mandando um email para o participante agradecendo ele por ter feito o registro no
+formulário com sucesso, também é registrado um "Log" onde mantém um controle de dados dos participantes registrados.
+
+Requisitos para o projeto funcionar com êxito:
+- Ter a Linguagem Python instalado no computador
+- Ter um Interpretador de Código(Visual Studio Code)
+- Instalar as depedências necessárias(Bibliotecas)
+# Ao abrir o VSCODE segure a Tecla CRTL + J e escreva separadamente os comandos abaixo:
+- pip install selenium
+- pip install openpyx
+- pip install smtplib
